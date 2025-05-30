@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="test.lms.LoginController"
+            prefHeight="400.0" prefWidth="600.0"
+            style="-fx-background-color: #f5f5f5;">
+
+    <VBox alignment="CENTER" spacing="15" layoutX="200" layoutY="100" prefWidth="200">
+        <Label text="Login System" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+
+        <TextField fx:id="emailField" promptText="Email" style="-fx-pref-width: 250px;" />
+        <PasswordField fx:id="passwordField" promptText="Password" style="-fx-pref-width: 250px;" />
+
+        <Button text="Login" onAction="#handleLogin"
+                style="-fx-pref-width: 250px; -fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold;" />
+
+        <Label fx:id="loginMessageLabel" text="" style="-fx-text-fill: #e74c3c;" />
+
+        <Hyperlink text="Don't have an account? Sign Up" onAction="#showSignupScreen"
+                   style="-fx-text-fill: #3498db; -fx-border-color: transparent;"/>
+    </VBox>
+
+</AnchorPane>

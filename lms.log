@@ -1,0 +1,670 @@
+May 23, 2025 5:46:33 PM test.lms.LMSApplication start
+SEVERE: Database initialization failed: FATAL: password authentication failed for user "postgres"
+May 23, 2025 5:47:46 PM test.lms.LMSApplication start
+SEVERE: Database initialization failed: FATAL: password authentication failed for user "postgres"
+May 23, 2025 6:07:01 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 23, 2025 6:24:50 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 23, 2025 7:09:24 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 1:46:18 PM test.lms.LMSApplication start
+SEVERE: Database initialization failed: FATAL: password authentication failed for user "postgres"
+May 24, 2025 1:47:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 1:58:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 1:59:52 PM test.lms.LMSApplication loadItems
+SEVERE: Load items failed: ERROR: column c.instructor_id does not exist
+  Position: 44
+May 24, 2025 1:59:52 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:00:36 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:01:08 PM test.lms.LMSApplication loadItems
+SEVERE: Load items failed: ERROR: column "instructor_id" does not exist
+  Position: 38
+May 24, 2025 2:01:08 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:01:51 PM test.lms.LMSApplication lambda$addCourse$1
+SEVERE: Add course failed: ERROR: column "instructor_id" of relation "courses" does not exist
+  Position: 48
+May 24, 2025 2:08:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:11:36 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:46:48 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: relation "audit_logs" does not exist
+  Position: 13
+May 24, 2025 2:47:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:24 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:29 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:31 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:32 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:32 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:33 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:34 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:45 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:47:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:48:04 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:48:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:49:52 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 2:50:32 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:09:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:09:56 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:10:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:10:54 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:11:13 PM test.lms.LMSApplication submitAssignment
+SEVERE: Fetch assignments failed: Operation requires a scrollable ResultSet, but this ResultSet is FORWARD_ONLY.
+May 24, 2025 3:11:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:12:13 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:12:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:14:33 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:17:21 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:18:12 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:18:21 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:18:58 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:21:07 PM test.lms.LMSApplication submitAssignment
+SEVERE: Fetch assignments failed: Operation requires a scrollable ResultSet, but this ResultSet is FORWARD_ONLY.
+May 24, 2025 3:22:07 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:25:54 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:30:56 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:31:01 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:31:04 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:31:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:31:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:33:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:34:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:35:05 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:35:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:39:50 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:40:05 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:40:26 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:40:54 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:41:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:41:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:50:06 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:50:28 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:50:44 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:50:53 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:51:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:52:12 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:52:30 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 3:52:40 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 3:53:07 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:01:21 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:02:07 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 4:02:19 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 4:03:14 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:03:44 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:04:06 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 4:04:27 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:04:38 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:05:24 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:05:37 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:05:44 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:05:57 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:06:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:06:45 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:13:33 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:13:34 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:13:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:13:44 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 4:14:37 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 4:14:49 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 4:15:32 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 24, 2025 7:11:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 24, 2025 7:11:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 4:17:13 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 4:17:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 4:17:35 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 26, 2025 4:17:45 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 26, 2025 4:17:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:08:31 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:09:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:09:48 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 26, 2025 5:09:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:11:04 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:11:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 26, 2025 5:12:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 12:56:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 12:57:16 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 12:57:22 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 12:57:45 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 12:58:19 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 12:59:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:03:28 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:03:32 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:23 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:24 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:05:34 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 1:05:37 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:06:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 27, 2025 1:06:17 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 27, 2025 1:08:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:42:14 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:42:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:42:57 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:42:57 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:43:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:43:16 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 12:43:44 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 12:43:58 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:44:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:45:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:48:40 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 12:51:04 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:09:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:09:57 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 1:10:04 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 1:10:12 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:13:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:13:53 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:16:26 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:16:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:16:59 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:17:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:18:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:18:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:19:38 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:19:49 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:20:21 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:20:41 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 1:20:45 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:20:57 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:21:12 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:21:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:21:40 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:21:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:21:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:22:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:22:34 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:23:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:55:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:55:30 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:55:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:55:56 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:56:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:56:07 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:56:40 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 1:56:42 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 1:56:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:09:48 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:10:41 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:10:51 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:08 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 2:11:16 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:24 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:27 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:28 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:50 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:11:53 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:12:29 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:12:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:12:48 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:13:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:18:29 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:24:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:25:05 PM test.lms.LMSApplication loadItems
+SEVERE: Load items failed: ERROR: column "course_code" does not exist
+  Hint: Perhaps you meant to reference the column "courses.course_name".
+  Position: 48
+May 28, 2025 2:25:07 PM test.lms.LMSApplication createDashboard
+SEVERE: Load course codes failed: ERROR: column "course_code" does not exist
+  Hint: Perhaps you meant to reference the column "courses.course_name".
+  Position: 25
+May 28, 2025 2:25:07 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:25:21 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:25:47 PM test.lms.LMSApplication loadItems
+SEVERE: Load items failed: ERROR: column c.course_code does not exist
+  Hint: Perhaps you meant to reference the column "c.course_name".
+  Position: 73
+May 28, 2025 2:25:47 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:26:53 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:27:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:27:23 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:27:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:27:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:27:50 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 2:28:03 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 2:28:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:28:35 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 2:28:37 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:28:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:28:54 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:28:55 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:28:59 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:29:01 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:29:21 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 2:29:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:29:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 2:55:59 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:49:27 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:49:28 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:49:28 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:49:30 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:50:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:50:11 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:50:18 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:51:00 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 3:51:12 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 3:51:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:51:35 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:52:09 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 3:52:19 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:03:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:03:38 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:03:47 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:06:14 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:06:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:06:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:12:38 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:13:11 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 4:13:25 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 4:13:46 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 4:14:04 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 4:14:24 PM test.lms.LMSApplication logAudit
+SEVERE: Audit log failed: ERROR: insert or update on table "audit_logs" violates foreign key constraint "audit_logs_user_id_fkey"
+  Detail: Key (user_id)=(0) is not present in table "users".
+May 28, 2025 4:14:29 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:15:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:15:53 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:16:54 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:17:06 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:17:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:17:30 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:17:37 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:18:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:19:44 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:19:47 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:19:56 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:20:06 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:20:12 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:20:22 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:20:29 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:21:02 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:21:14 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:26:25 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:26:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:27:45 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:28:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:28:17 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:33:43 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:33:59 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:34:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:34:15 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:35:32 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:35:50 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:36:23 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:36:30 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:36:45 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:10 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:15 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:41 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:46 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:37:52 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:38:11 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:38:15 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:38:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:39:20 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:39:33 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:39:39 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:39:52 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 28, 2025 4:40:03 PM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 29, 2025 10:32:09 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 29, 2025 10:33:00 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 29, 2025 10:43:58 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 30, 2025 7:45:16 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 30, 2025 7:45:37 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 30, 2025 7:46:03 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 30, 2025 7:52:13 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources
+May 30, 2025 8:06:53 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 8:46:37 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 8:46:48 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:13:58 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:14:14 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:14:20 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:14:51 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:16:43 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:17:01 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:17:53 AM test.lms.LMSApplication viewScores
+SEVERE: Load scores failed: ERROR: column s.file_name does not exist
+  Position: 34
+May 30, 2025 9:17:53 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:31:16 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:35:15 AM test.lms.LMSApplication applyStylesheet
+WARNING: styles.css not found in resources at /test.lms/styles.css
+May 30, 2025 9:51:47 AM test.lms.LMSApplication gradeSubmissions
+SEVERE: Load submissions failed: ERROR: column s.file_name does not exist
+  Position: 48
+May 30, 2025 10:04:23 AM test.lms.LMSApplication gradeSubmissions
+SEVERE: Load submissions failed: ERROR: column s.file_name does not exist
+  Position: 48
+May 30, 2025 10:04:58 AM test.lms.LMSApplication gradeSubmissions
+SEVERE: Load submissions failed: ERROR: column s.file_name does not exist
+  Position: 48

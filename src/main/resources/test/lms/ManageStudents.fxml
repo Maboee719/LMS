@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="test.lms.ManageStudentsController">
+
+    <center>
+        <VBox spacing="10" padding="10">
+            <TableView fx:id="studentsTable" prefHeight="200">
+                <columns>
+                    <TableColumn fx:id="colId" text="ID" prefWidth="100"/>
+                    <TableColumn fx:id="colName" text="Name" prefWidth="200"/>
+                </columns>
+            </TableView>
+
+            <HBox spacing="10">
+                <TextField fx:id="idField" promptText="ID"/>
+                <TextField fx:id="nameField" promptText="Name"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Button text="Add" onAction="#handleAdd"/>
+                <Button text="Update" onAction="#handleUpdate"/>
+                <Button text="Delete" onAction="#handleDelete"/>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

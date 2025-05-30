@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="test.lms.AdminDashboardController">
+    <!-- Top Welcome Bar -->
+    <top>
+        <VBox alignment="CENTER" styleClass="welcome-bar">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <Label text="Welcome, Admin! | 09:36 AM SAST on Friday, May 23, 2025" styleClass="welcome-text"/>
+            <Label text="Manage your Learning Management System efficiently" styleClass="subtitle"/>
+        </VBox>
+    </top>
+
+    <!-- Left Sidebar Navigation -->
+    <left>
+        <VBox spacing="15" alignment="TOP_CENTER" styleClass="sidebar">
+            <Button text="🏠 Dashboard" maxWidth="Infinity" onAction="#showCourses" styleClass="sidebar-button"/>
+            <Button text="👥 Users" maxWidth="Infinity" onAction="#showUsers" styleClass="sidebar-button"/>
+            <Button text="📚 Courses" maxWidth="Infinity" onAction="#showCourses" styleClass="sidebar-button"/>
+            <Button text="📈 Reports" maxWidth="Infinity" onAction="#generateReport" styleClass="sidebar-button"/>
+            <Button text="⚙️ Settings" maxWidth="Infinity" onAction="#toggleTheme" styleClass="sidebar-button"/>
+            <ToggleButton fx:id="themeToggle" text="Dark Theme" onAction="#toggleTheme" styleClass="sidebar-button"/>
+        </VBox>
+    </left>
+
+    <!-- Center Dashboard Area -->
+    <center>
+        <ScrollPane fitToWidth="true">
+            <VBox fx:id="mainContent" spacing="25" alignment="TOP_CENTER" styleClass="main-content">
+                <!-- Summary Cards -->
+                <HBox spacing="20" alignment="CENTER">
+                    <VBox styleClass="summary-card" prefWidth="200">
+                        <Label text="👥 Students" styleClass="card-title"/>
+                        <Label fx:id="studentsCountLabel" text="0" styleClass="card-value"/>
+                    </VBox>
+                    <VBox styleClass="summary-card" prefWidth="200">
+                        <Label text="📚 Courses" styleClass="card-title"/>
+                        <Label fx:id="coursesCountLabel" text="0" styleClass="card-value"/>
+                    </VBox>
+                    <VBox styleClass="summary-card" prefWidth="200">
+                        <Label text="👨‍🏫 Instructors" styleClass="card-title"/>
+                        <Label fx:id="instructorsCountLabel" text="0" styleClass="card-value"/>
+                    </VBox>
+                    <VBox styleClass="summary-card" prefWidth="200">
+                        <Label text="🕒 Real-Time" styleClass="card-title"/>
+                        <Label fx:id="realTimeClock" text="09:36 AM SAST on Friday, May 23, 2025" styleClass="card-value"/>
+                    </VBox>
+                </HBox>
+
+                <!-- Search Bar -->
+                <TextField fx:id="searchField" promptText="🔍 Search users or courses..." styleClass="search-field"/>
+
+                <!-- User Management or Course List -->
+                <VBox spacing="15">
+                    <Label fx:id="listTitle" text="Courses" styleClass="section-title"/>
+                    <HBox spacing="15">
+                        <VBox fx:id="itemList" spacing="10" prefWidth="400" styleClass="item-list"/>
+                        <Pagination fx:id="pagination" pageCount="1" maxPageIndicatorCount="5" styleClass="pagination"/>
+                        <TableView fx:id="userTable" visible="false" prefWidth="400" styleClass="table">
+                            <columns>
+                                <TableColumn fx:id="userNameCol" text="Name" prefWidth="130"/>
+                                <TableColumn fx:id="userEmailCol" text="Email" prefWidth="130"/>
+                                <TableColumn fx:id="userRoleCol" text="Role" prefWidth="130"/>
+                            </columns>
+                        </TableView>
+                    </HBox>
+                    <HBox spacing="15">
+                        <Button fx:id="addUserButton" text="➕ Add User" onAction="#addUser" styleClass="action-button" tooltip="Add a new user to the system"/>
+                        <Button fx:id="editUserButton" text="✏️ Edit User" onAction="#editUser" styleClass="action-button" tooltip="Edit selected user's details"/>
+                        <Button fx:id="deleteUserButton" text="🗑️ Delete User" onAction="#deleteUser" styleClass="action-button" tooltip="Delete selected user"/>
+                        <Button fx:id="addButton" text="➕ Add Course" onAction="#showAddCourseDialog" styleClass="action-button" tooltip="Add a new course"/>
+                        <Button fx:id="deleteCourseButton" text="🗑️ Delete Course" onAction="#deleteCourse" styleClass="action-button" tooltip="Delete selected course"/>
+                    </HBox>
+                </VBox>
+
+                <!-- Progress and Chart Section -->
+                <HBox spacing="30" alignment="CENTER">
+                    <VBox spacing="10" alignment="CENTER" styleClass="chart-section">
+                        <Label text="Overall Progress" styleClass="section-title"/>
+                        <ProgressBar fx:id="overallProgressBar" progress="0.0" prefWidth="200" styleClass="progress-bar"/>
+                        <ProgressIndicator fx:id="overallProgressIndicator" progress="0.0" prefWidth="50" prefHeight="50" styleClass="progress-indicator"/>
+                    </VBox>
+                    <VBox spacing="10" styleClass="chart-section">
+                        <Label text="Course Completion" styleClass="section-title"/>
+                        <PieChart fx:id="courseCompletionChart" prefWidth="300" prefHeight="250" styleClass="pie-chart"/>
+                    </VBox>
+                    <VBox spacing="10" styleClass="chart-section">
+                        <Label text="Progress Trend" styleClass="section-title"/>
+                        <LineChart fx:id="progressTrendChart" prefWidth="300" prefHeight="250" styleClass="line-chart">
+                            <xAxis><CategoryAxis label="Time"/></xAxis>
+                            <yAxis><NumberAxis label="Progress (%)" lowerBound="0" upperBound="100" tickUnit="10"/></yAxis>
+                        </LineChart>
+                    </VBox>
+                </HBox>
+
+                <!-- Details and Reports -->
+                <VBox spacing="15" prefWidth="700" styleClass="details-section">
+                    <Label fx:id="detailsTitle" text="Details" styleClass="section-title"/>
+                    <Label fx:id="detailsName" text="Select an item" styleClass="details-name"/>
+                    <Label fx:id="detailsDescription" text="" wrapText="true" styleClass="details-desc"/>
+                    <ProgressBar fx:id="detailsProgressBar" progress="0.0" prefWidth="200" styleClass="progress-bar"/>
+                    <Button fx:id="updateProgressButton" text="🔄 Update Progress" onAction="#showUpdateProgressDialog" styleClass="action-button" tooltip="Update progress for selected course"/>
+                    <Button fx:id="refreshButton" text="↻ Refresh" onAction="#refreshList" styleClass="action-button" tooltip="Refresh the dashboard data"/>
+                    <Button fx:id="generateReportButton" text="📊 Generate Report" onAction="#generateReport" styleClass="action-button" tooltip="Generate a system report"/>
+                    <TextArea fx:id="reportTextArea" editable="false" prefHeight="150" wrapText="true" styleClass="report-area"/>
+                    <TextArea fx:id="notificationArea" editable="false" prefHeight="100" wrapText="true" styleClass="notification-area"/>
+                </VBox>
+            </VBox>
+        </ScrollPane>
+    </center>
+
+    <!-- Bottom Status Bar -->
+    <bottom>
+        <Label fx:id="statusLabel" text="Logged in as: admin | Last refreshed: 09:36 AM SAST on Friday, May 23, 2025" styleClass="status-bar">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </Label>
+    </bottom>
+</BorderPane>

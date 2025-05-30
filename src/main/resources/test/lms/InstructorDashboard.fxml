@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="test.lms.InstructorDashboardController">
+
+    <!-- Top area: Status label and main menu buttons -->
+    <top>
+        <VBox spacing="5">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <HBox spacing="10">
+                <Button text="Add Course" onAction="#handleAddCourse"/>
+                <Button text="Edit Course" onAction="#handleUpdateCourse"/>
+                <Button text="Delete Course" onAction="#handleDeleteCourse"/>
+                <Button text="Manage Students" onAction="#ManageStudents"/>
+                <Button text="View Progress" onAction="#viewProgress"/>
+                <Button text="Exit" onAction="#handleExit"/>
+            </HBox>
+            <Label fx:id="statusLabel" text="Status messages will appear here" />
+        </VBox>
+    </top>
+
+    <!-- Center area: Main content -->
+    <center>
+        <VBox spacing="15">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <!-- Summary stats -->
+            <HBox spacing="20">
+                <VBox spacing="5">
+                    <Label text="Total Courses:"/>
+                    <Label fx:id="totalCoursesLabel" text="0"/>
+                </VBox>
+                <VBox spacing="5">
+                    <Label text="Total Students:"/>
+                    <Label fx:id="totalStudentsLabel" text="0"/>
+                </VBox>
+                <VBox spacing="5">
+                    <Label text="Overall Progress:"/>
+                    <ProgressBar fx:id="overallProgressBar" prefWidth="150"/>
+                    <ProgressIndicator fx:id="progressIndicator"/>
+                </VBox>
+            </HBox>
+
+            <!-- Table and pagination -->
+            <TableView fx:id="coursesTable" prefHeight="200">
+                <columns>
+                    <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+                    <TableColumn fx:id="colName" text="Course Name" prefWidth="200"/>
+                </columns>
+            </TableView>
+
+            <Pagination fx:id="pagination" maxPageIndicatorCount="4" />
+
+            <!-- Course management controls -->
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Course Name:"/>
+                <TextField fx:id="courseNameField" promptText="Enter course name" prefWidth="200"/>
+                <Button text="Add" onAction="#handleAddCourse"/>
+                <Button text="Update" onAction="#handleUpdateCourse"/>
+                <Button text="Delete" onAction="#handleDeleteCourse"/>
+            </HBox>
+
+            <!-- Buttons with effects -->
+            <HBox spacing="15" alignment="CENTER_LEFT">
+                <Button fx:id="shadowButton" text="Shadow Button"/>
+                <Button fx:id="fadingButton" text="Fading Button"/>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>
